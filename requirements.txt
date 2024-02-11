@@ -1,6 +1,5 @@
-python = ">=3.9,<3.12"
-python-dotenv = "^1.0.0"
-vocode = "0.1.111a3"
-elevenlabs = "^0.2.23"
-google = "^3.0.0"
-google-cloud-texttospeech = "^2.16.1"
+python-dotenv>=1.0.0
+vocode==0.1.111a3
+elevenlabs>=0.2.23
+google>=3.0.0
+google-cloud-texttospeech>=2.16.1
