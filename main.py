@@ -39,7 +39,7 @@ vocode.setenv(
 )
 
 
-openai.api_key = "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"
+openai.api_key = os.environ.get('OPENAI_API_KEY'),
 
 
 if __name__ == "__main__":
